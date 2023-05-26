@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#import func from file given, does Maths and prints result
 
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
