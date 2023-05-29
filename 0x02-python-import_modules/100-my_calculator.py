@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 """
-A program that imports all functions from the file calculator_1.py and handles basic operations.
+A program that imports all functions from
+the file calculator_1.py and handles basic operations.
 """
-if __name__ =="__main__":
+if __name__ == "__main__":
     from sys import argv
     from calculator_1 import add, sub, mul, div
     argc = len(argv)
@@ -23,6 +24,6 @@ if __name__ =="__main__":
         res = op(num_1, num_2)
         print('{:d} {:s} {:d} = {:d}'.format(num_1, argv[2], num_2, res))
     else:
-        print('Unkown operator. Available operators: +, -, * and /')
+        print('Unknown operator. Available operators: +, -, * and /')
         exit(1)
     exit(0)
