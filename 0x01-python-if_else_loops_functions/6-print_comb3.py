@@ -2,6 +2,6 @@
 for dig_1 in range(0, 9):
     for dig_2 in range(dig_1 + 1, 10):
         if dig_1 is not 8 or dig_2 is not 9:
-            print("{:d}{:d}".format(dig_1, dig_2), end=", ")
+            print("{:d}{:d} ".format(dig_1, dig_2), end=", ")
         else:
             print("{:d}{:d}".format(dig_1, dig_2))
